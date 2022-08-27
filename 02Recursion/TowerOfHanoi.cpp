@@ -2,7 +2,7 @@
 using namespace std;
 void toh(int n,int a,int b,int c){
     if(n>0){
-        toh(n-1,a,c,b)
+        toh(n-1,a,c,b);
         cout<<"move"<<a<<c;
         toh(n-1,b,a,c);
     }
