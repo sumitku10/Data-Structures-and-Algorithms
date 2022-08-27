@@ -8,7 +8,10 @@ void toh(int n,int a,int b,int c){
     }
 };
 int main(){
-    toh(4,1,2,3);
+    int x;
+    cout<<"Enter number for move : ";
+    cin>>x;
+    toh(x ,1,2,3);
 
  return(0);
 }
