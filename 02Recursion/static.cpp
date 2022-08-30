@@ -1,3 +1,5 @@
+// static 
+
 #include<iostream>
 using namespace std;
 
@@ -10,6 +12,8 @@ void funa(int x){
         funb(x-1);
     } 
 };
+
+// dynamic 
 void funb(int x){
     if(x>1){
         cout<<x<<endl;
