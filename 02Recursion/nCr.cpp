@@ -1,3 +1,5 @@
+//ncr programm
+
 #include<iostream>
 using namespace std;
 
