@@ -9,7 +9,7 @@ int fib(int n){
 
 int main(){
    int a;
-   a= fib(5);
+   a = fib(5);
    cout<<a;
  return(0);
 }
