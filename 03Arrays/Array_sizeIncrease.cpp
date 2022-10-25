@@ -15,9 +15,9 @@ int main(){
      for(i=0;i<5;i++){
         q[i]=p[i]; 
     }
-    // free(p);
-    // p=q;
-    // q=NULL;
+    free(p);
+    p=q;
+    q=NULL;
 // print the array //
     for(i=0;i<5;i++)
         cout<<q[i]<<endl; 
