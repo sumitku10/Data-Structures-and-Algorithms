@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
+
+// function call
 void toh(int n,int a,int b,int c){
     if(n>0){
         toh(n-1,a,c,b);
